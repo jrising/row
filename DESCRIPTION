@@ -2,10 +2,9 @@ Package: openworld
 Title: Model creation interface to OpenWorld
 Version: 0.1
 Authors@R: "James Rising <jarising@gmail.com> [aut, cre]"
-Description:
-Create new models within the OpenWorld framework.
-Run the models and get results.
-
-Depends: R (>= 3.0.2)
+Description: Create new models within the OpenWorld framework. Run the models
+    and get results.  Relies on Rcpp and inline.
+Depends:
+    R (>= 3.0.2)
 License: GNU GPL 2.0
 LazyData: true
