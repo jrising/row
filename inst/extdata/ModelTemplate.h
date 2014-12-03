@@ -20,5 +20,8 @@ class ${MODEL}Model : public SimpleTemporalModel {
   ${VARINITS} {
     ${EQUATIONS}
   }
+
+  ~${MODEL}Model() {
+  }
 };
 
